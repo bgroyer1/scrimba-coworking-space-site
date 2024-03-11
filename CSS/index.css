@@ -1,0 +1,106 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #282828;
+    width: 360px;
+}
+
+/*typography*/
+
+h1 {
+    margin: 30px 25px;
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+/*header*/
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 25px;
+    margin: 0;
+    gap: 10px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.icon {
+    width: 25px;
+}
+
+.align-right{
+    margin: 0 0 0 auto;
+}
+
+/*section*/
+
+.caption {
+    margin: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 20px;
+}
+
+.item-img {
+    display: block;
+    width: 100%;
+}
+
+.item {
+    position: relative;
+}
+
+.img-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+/*links*/
+
+.btn-book {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    align-self: center;
+}
+
+/*chatbox*/
+
+.chatbox {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color:#dda15e;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    user-select: none;
+    display: flex;
+    position: fixed;
+    top: 390px;
+    left: 320px;
+}
+
+.chatbox-btn {
+    align-self: center;
+    margin: auto;
+    width: 50%;
+}
